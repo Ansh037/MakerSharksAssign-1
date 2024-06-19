@@ -12,6 +12,12 @@ public class User {
     private String email;
     private String password;
 
+ public User(String userName, String mail, String userPassword){
+     username = userName;
+     email = mail;
+     password = userPassword;
+ }
+
   public Long getId(){
     return id;
   }
